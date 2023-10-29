@@ -6,14 +6,34 @@ body {
 }
 
 #background {
-	background-color: #000;
-    background-image: url(../images/bg.jpg);
+    background-color: #000;
+    background-image: url(assets/images/bg.jpg);
     background-position: center;
     background-size: cover;
     display: table;
     height: 100%;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
 }
+
+#bgVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+#bgVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 
 #loginContainer * {
 	color: #fff;

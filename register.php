@@ -18,9 +18,7 @@
 <html>
 <head>
 	<title>Welcome to Slotify!</title>
-
-	<link rel="stylesheet" type="text/css" href="assets/css/register.css">
-
+    <link rel="stylesheet" type="text/css" href="assets/css/register.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="assets/js/register.js"></script>
 </head>
@@ -48,6 +46,13 @@
 	
 
 	<div id="background">
+        <video autoplay muted loop id="bgVideo" controls>
+            <source src="assets/images/What is Spotify.mp4" type="video/mp4">
+            <!-- Add additional <source> elements for other video formats if needed -->
+            Your browser does not support the video tag.
+        </video>
+
+        <img src="G:\music-streaming-project\assets\unnamed.jpg" alt="Image Description">
 
 		<div id="loginContainer">
 
